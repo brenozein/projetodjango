@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'recipes',#Configuração para identificar e iniciaralizar o app criado anteriormente (comando: python manage.py startaap recipes   "recipes é o nome do app")
 ]
 
 MIDDLEWARE = [
