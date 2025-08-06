@@ -5,4 +5,5 @@ from . import views              #ter acesso a todas as funções e classes no a
 
 urlpatterns = [
     path('', views.recipe_list, name='recipes_list'), #nova view para listar
+    path('<int:pk>/', views.recipe_detail, name ='recipe_detail')
 ]
